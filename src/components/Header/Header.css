@@ -1,0 +1,7 @@
+.Header{
+    color: white;
+    background-color: steelblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
