@@ -8,11 +8,24 @@
 	justify-content: center;
 }
 
-.add-game {
+.more-game {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	padding: 25px;
+	text-align: center;
+}
+
+.more-game button {
+	font-weight: 1000;
+	font-size: 18px;
+	padding: 8px;
+}
+
+.add-game {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	text-align: center;
 }
 

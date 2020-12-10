@@ -1,0 +1,29 @@
+/* movie form styles */
+.add-game-form-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 25px;
+	justify-content: center;
+	text-align: center;
+	background-color: white;
+}
+
+.add-game-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.add-game-form input {
+	font-size: 14px;
+	padding: 5px;
+	margin: 5px;
+}
+
+.add-game-form button {
+	font-size: 16px;
+	font-weight: 1000;
+	padding: 4px;
+	margin: 10px 10px 30px 10px;
+}
