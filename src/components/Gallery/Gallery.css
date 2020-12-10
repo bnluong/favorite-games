@@ -1,0 +1,23 @@
+.Gallery {
+	box-sizing: border-box;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-top: 25px;
+	justify-content: center;
+}
+
+.add-game {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 25px;
+	text-align: center;
+}
+
+.add-game button {
+	font-weight: 1000;
+	font-size: 18px;
+	padding: 8px;
+}

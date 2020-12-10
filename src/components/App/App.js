@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from '../Header/Header';
-
-var headerText = 'What is your favorite games?'
+import Gallery from '../Gallery/Gallery';
 
 class App extends Component {
 	render() {
 		return (
 			<div className='App'>
-				<Header text={headerText}/>
+				<Header text={'These Are My Favorite Games!'} />
+				<Gallery />
 			</div>
 		);
 	}
